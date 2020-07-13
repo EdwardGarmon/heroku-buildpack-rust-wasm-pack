@@ -54,6 +54,9 @@ else
     rustup target add wasm32-unknown-unknown
 fi
 
+echo "-----> Installing wasm target"
+rustup target add wasm32-unknown-unknown
+
 echo "-----> Installing cargo-update"
 cargo install cargo-update || true
 
